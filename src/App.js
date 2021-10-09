@@ -12,7 +12,7 @@ function App() {
       <Nav />
       <div className={styles.container}>
         <Hero />
-        <Prng dark="#333333" light="#ffffff" />
+        <Prng dark="#333333" light="#ffffff" k />
         <HowToUse />
       </div>
       <Footer />
