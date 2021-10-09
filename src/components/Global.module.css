@@ -1,0 +1,33 @@
+.imgWrapper {
+  max-width: 520px;
+}
+
+.img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.nav {
+  padding: 10px 40px;
+  background-color: #ff8241;
+}
+
+.nav p {
+  font-weight: 700;
+}
+
+.footer {
+  padding: 10px 40px;
+  background-color: #ff8241;
+  text-align: right;
+}
+
+.footer p {
+  font-weight: 700;
+}
