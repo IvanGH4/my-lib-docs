@@ -11,9 +11,10 @@ const HowToUse = () => {
         running the next command: <code>npm i @ivangarcia/poronga</code>
       </p>
       <p>
-        Then, you just have to import the component and place it wherever you
-        want. Remember to pass it the dark and light color (hex or rgba) of your
-        choose for it to render properly and the toggle theme function works.
+        Then, you just have to import the component and place it wherever.
+        Remember to pass in the props the dark and light color (hex, rgb, rgba)
+        of your choice for it to render properly and for the toggle theme
+        function to work.
       </p>
       <div className={styles.imgWrapper}>
         <img
