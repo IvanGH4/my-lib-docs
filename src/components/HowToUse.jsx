@@ -21,8 +21,8 @@ const HowToUse = () => {
           <strong>formData:</strong> array of objects that will be converted to input fields.
           The structure must be:
         </li>
-        <div>
-          <img style={{maxWidth: '500px'}} src={sample} alt="Sample code snippet." />
+        <div className={styles.imgWrapper}>
+          <img className={styles.img} src={sample} alt="Sample code snippet." />
         </div>
         <li style={{marginBottom: '10px'}}>
           <strong>isDark:</strong> boolean to tell the component to display in dark or light mode. 
@@ -49,8 +49,8 @@ const HowToUse = () => {
       <p>
         This is a custom hook, that when you call it, it returns the values that the user wrote on the input fields.
       </p>
-      <div>
-        <img style={{maxWidth: '500px'}} src={hook} alt="Custom hook." />
+      <div className={styles.imgWrapper}>
+        <img className={styles.img} src={hook} alt="Custom hook." />
       </div>
       <div className={styles.imgWrapper}>
         <img
