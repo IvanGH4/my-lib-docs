@@ -7,12 +7,27 @@ import Footer from './components/Footer';
 import { Prng } from '@ivangarcia/poronga';
 
 function App() {
+  const dataArr = [
+    {
+      label: "Hello",
+      type: "text",
+      placeholder: "World",
+      name: "hello"
+    },
+    {
+      label: "Hello again",
+      type: "text",
+      placeholder: "Hello again World",
+      name: "helloAgain"
+    },
+  ];
+
   return (
     <>
       <Nav />
       <div className={styles.container}>
         <Hero />
-        <Prng dark="#333333" light="#ffffff" />
+        <Prng formData={dataArr} isDark={true} ctaAspect="light" ctaSize="medium"  />
         <HowToUse />
       </div>
       <Footer />
